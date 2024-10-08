@@ -8,9 +8,9 @@ export class Counterclass extends Component {
     };
   }
 
-  increment = () => {
-    this.setState((increment) => ({ count: increment.count + 1 }));
-  };
+  // increment = () => {
+  //   this.setState((increment) => ({ count: increment.count + 1 }));
+  // };
 
   decrement = () => {
     this.setState((decrement) => ({ count: decrement.count - 1 }));
@@ -20,7 +20,9 @@ export class Counterclass extends Component {
     return (
       <>
         <h2>Counter: {this.state.count}</h2>
-        <button onClick={this.increment}>Increment</button>
+       
+        <button onClick={ () => this.setState({count: this.state.count + 1})}>Increment</button>
+      
         <button onClick={this.decrement}>Decrement</button>
       </>
     );
