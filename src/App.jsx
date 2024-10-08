@@ -1,6 +1,7 @@
 
 import './App.css'
-import Counter from './Counter';
+// import Counter from './Counter';
+import Counterclass from './Counterclass';
 // import Props from './Props';
 // import Navbar from './Navbar'
 // import Sidebar from './Sidebar'
@@ -17,10 +18,11 @@ function App() {
 
   return (
     <>
+    <Counterclass />
       {/* <Sidebar/>
     <Navbar/> */}
     {/* <Props arrray={arr} studentdata={Student} /> */}
-    <Counter />
+    {/* <Counter /> */}
     </>
   )
 }
