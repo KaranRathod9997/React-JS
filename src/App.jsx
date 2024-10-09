@@ -1,6 +1,7 @@
 
 import './App.css'
-import Formvalidation from './Formvalidation';
+import Formclass from './Formclass';
+// import Formvalidation from './Formvalidation';
 // import Counter from './Counter';
 // import Counterclass from './Counterclass';
 // import Props from './Props';
@@ -19,7 +20,8 @@ function App() {
 
   return (
     <>
-    <Formvalidation/>
+    <Formclass/>
+    {/* <Formvalidation/> */}
     {/* <Counterclass /> */}
       {/* <Sidebar/>
     <Navbar/> */}
