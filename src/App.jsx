@@ -1,6 +1,7 @@
 
 import './App.css'
-import Formclass from './Formclass';
+import Arrayform from './Arrayform';
+// import Formclass from './Formclass';
 // import Formvalidation from './Formvalidation';
 // import Counter from './Counter';
 // import Counterclass from './Counterclass';
@@ -20,7 +21,8 @@ function App() {
 
   return (
     <>
-    <Formclass/>
+    <Arrayform />
+    {/* <Formclass/> */}
     {/* <Formvalidation/> */}
     {/* <Counterclass /> */}
       {/* <Sidebar/>
